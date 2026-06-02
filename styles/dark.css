@@ -17,5 +17,9 @@
   --title-color: #FF0070;
   --decorated-text-color: #000028;
   --link-color: #F1B2CE;
-  --decorated-zone-color: #FF0070; 
+  --decorated-zone-color: #FF0070;
+}
+
+:root.theme-dark .header__rec {
+  display: block;
 }

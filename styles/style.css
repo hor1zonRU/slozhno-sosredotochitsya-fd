@@ -209,7 +209,7 @@
 
 .footer__title {
   font-weight: 700;
-  font-size: 120px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   color: var(--main-title-color);
   text-shadow: 2px 2px var(--accent-color);
@@ -245,6 +245,7 @@
   }
 
   .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     grid-column: span 2;
     margin-left: -20px;
   }
@@ -257,7 +258,7 @@
     padding: 0 20px;
   }
 
-  .concentration__difficult {
+  .content-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
@@ -276,13 +277,6 @@
     grid-column: 2;
   }
 
-  .concentration__decrease {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    margin-bottom: 50px;
-  }
-
   .concentration__decrease-title {
     grid-column: 1;
     margin-bottom: 0;
@@ -290,13 +284,6 @@
 
   .concentration__decrease-article {
     grid-column: span 2;
-  }
-
-  .concentration__increase {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    margin-bottom: 50px;
   }
 
   .concentration__increase-title {
@@ -350,6 +337,10 @@
     min-block-size: 1024px;
     padding: 20px;
   }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 }
 
 /* 1024 */
@@ -383,7 +374,7 @@
     justify-self: end;
   }
 
-  .concentration__difficult {
+  .content-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -399,7 +390,7 @@
   }
 
   .concentration__decrease {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
   }
 
   .concentration__decrease-title {
@@ -408,23 +399,19 @@
     margin-bottom: 0;
   }
 
-  .concentration__decrease-article:nth-child(2) {
+  .article-left {
     grid-column: 1;
     grid-row: 2 span;
   }
 
-  .concentration__decrease-article:nth-child(3) {
+  .article-middle {
     grid-column: 2;
     grid-row: 2 span;
   }
 
-  .concentration__decrease-article:nth-child(4) {
+  .article-right {
     grid-column: 3;
     grid-row: 2 span;
-  }
-
-  .concentration__increase {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .concentration__increase-title {
@@ -445,6 +432,6 @@
   }
 
   .footer__title {
-    font-size: 157px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
