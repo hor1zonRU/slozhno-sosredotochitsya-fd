@@ -18,6 +18,9 @@
   --decorated-text-color: #353430;
   --link-color: #F1B2CE;
   --decorated-zone-color: #353430;
+  --btn-color: #353430;
+  --border-style: 1px solid #353430;
+  --focus-border-style: 1px solid rgba(50, 49, 45, 0.4);    
 }
 
 :root.theme-light.header__rec {
@@ -39,6 +42,9 @@
     --decorated-text-color: #353430;
     --link-color: #F1B2CE;
     --decorated-zone-color: #353430;
+    --btn-color: #353430;
+    --border-style: 1px solid #353430;
+    --focus-border-style: 1px solid rgba(50, 49, 45, 0.4); 
   }
 }
 

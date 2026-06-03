@@ -18,6 +18,9 @@
   --decorated-text-color: #000028;
   --link-color: #F1B2CE;
   --decorated-zone-color: #FF0070;
+  --btn-color: #FF0070;
+  --border-style: 1px solid #FF0070;
+  --focus-border-style: 1px solid rgba(255, 0, 112, 0.4);   
 }
 
 :root.theme-dark .header__rec {
