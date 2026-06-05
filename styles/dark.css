@@ -20,7 +20,8 @@
   --decorated-zone-color: #FF0070;
   --btn-color: #FF0070;
   --border-style: 1px solid #FF0070;
-  --focus-border-style: 1px solid rgba(255, 0, 112, 0.4);   
+  --focus-border-style: 1px solid rgba(255, 0, 112, 0.4);
+  --link-underline-color: #F1B2CE;   
 }
 
 :root.theme-dark .header__rec {

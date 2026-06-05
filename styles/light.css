@@ -20,10 +20,11 @@
   --decorated-zone-color: #353430;
   --btn-color: #353430;
   --border-style: 1px solid #353430;
-  --focus-border-style: 1px solid rgba(50, 49, 45, 0.4);    
+  --focus-border-style: 1px solid rgba(50, 49, 45, 0.4);
+  --link-underline-color: #353430;  
 }
 
-:root.theme-light.header__rec {
+:root.theme-light .header__rec {
   display: none;
 }
 

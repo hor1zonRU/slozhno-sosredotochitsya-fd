@@ -8,10 +8,6 @@
   font-size: 18px;
 }
 
-.title-regular {
-  font-weight: 400;
-}
-
 /* Общие - Шапка и Футер */
 
 .decorated-zone::before {
@@ -169,7 +165,7 @@ margin-bottom: 20px;;
 }
 
 .text-block__subtitle {
-  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .decorated-link {
@@ -179,8 +175,7 @@ margin-bottom: 20px;;
 }
 
 .decorated-link:hover {
-  text-shadow: none;
-  text-decoration: underline;
+  border-bottom: 1px solid var(--link-underline-color);
 }
 
 .decorated-link:focus-visible {
@@ -366,7 +361,7 @@ margin-bottom: 20px;;
     gap: 20px;
   }
 
-  .causes .text-blocks .text-block {
+  .causes .text-block {
     grid-column: 1 span;
   }
 
